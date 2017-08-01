@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+html,body{
+  overflow-x:hidden;
+}
+#app {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    width:100%;
+    font-size:16px;
+    position:relative;
+}
+.header{
+    position:relative;
+    padding:17px 0;
+}
+.logo{
+    margin-bottom: 14px;
+}
+.logo img{
+    width:100%;
+    max-width:90px;
+    margin:0 auto;
+    display: block;
+    position:relative;
+    left:-10px;
+}
+.header-banner img{
+    width:100%;
+}
+/*BODY*/
+.content{
+  padding: 0 0.6em;
+}
+.check-title{
+  display:block;
+  text-align:left;
+  font-weight:600;
+  margin-right:1.5em;
+}
+.check-input-labels{
+  list-style:none;
+  width:100%;
+  padding:0;
+  margin:0;
+  text-align:left;
+  font-size: 0.9em;
+  padding: 0.9em 0;
+  border-bottom:1px solid #ccc;
+  margin-bottom: 10px;
+
+}
+.check-input-labels .check{
+  display: inline-block;
+  width: 24.555%;
+  min-width: 145px;
+  padding: 0.5em 0;
+  text-align: left;
+}
+.check-input-labels .check-t{ width:100%; }
+.check-input-labels .check .ipt{
+    vertical-align: -3px;
+    width: 15px;
+    height: 15px;
+}
+@media (min-width: 1000px){
+    #toggle-menu{
+        display:none;
+    }
+    .logo img{
+      margin-left: 5.8em;
+    }
+    .navigation{
+      display: block;
+      width: auto !important;
+      left: 12em !important;
+      margin: -6px !important;
+      text-align: left;
+    }
+    .navigation-item{
+        display:inline-block;
+    }
+    a.link-menu {
+      background: #fff !important;
+      padding: 1em !important;
+      font-size: 0.8em !important;
+      border: none !important;
+      text-align: left !important;
+      transition:0.3s;
+    }
+    a.link-menu:hover{
+      color:#ff5c2b !important;
+    }
+    #toggle-cart{
+      right: 5.1em !important;
+    }
+    .check-content {
+        padding: 0 4.6em;
+    }
+    .filter .all_products{
+      position: relative;
+      top: -62px;
+      margin-right: 7em;
+    }
+    .check-content{
+      text-align:left;
+    }
+    .list-art h3{
+      background: #fff  !important;
+      padding: 15px 0 !important;
+    }
+    .list-art .buy button{
+      width:auto !important;
+    }
+    .check-input-labels .check{
+      width: auto !important;
+    }
+}
